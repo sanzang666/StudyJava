@@ -38,13 +38,16 @@ public class for循环 {
         水仙花需求：查找 100 - 1000 内所有的水仙花数值
         水仙花数即 每个位数值的立方之和  等于原数值 的即为水仙花数值
          */
+        int count = 0;
         for (int i = 100; i < 1001; i++) {
             int ge = i % 10;
             int shi = i / 10 % 10;
             int bai = i / 10 / 10 % 10;
             if (ge * ge * ge + shi * shi * shi + bai * bai * bai == i) {
+                count += 1;
                 System.out.println(i);
             }
         }
+        System.out.println("水仙花数个数为：" + count + "个");
     }
 }
