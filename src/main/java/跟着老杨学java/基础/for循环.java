@@ -1,4 +1,4 @@
-package 跟着老杨学java;
+package 跟着老杨学java.基础;
 
 public class for循环 {
     /**
