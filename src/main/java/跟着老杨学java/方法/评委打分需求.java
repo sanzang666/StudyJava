@@ -1,8 +1,6 @@
 package 跟着老杨学java.方法;
 
-import org.jetbrains.annotations.NotNull;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class 评委打分需求 {
@@ -30,11 +28,10 @@ public class 评委打分需求 {
         //5.获取去除最大最小后的平均分
         int result = (sum - max - min) / (arr.length - 2);
         System.out.println(result);
-
     }
 
     //数组求和
-    public static int getArrSum(@NotNull int[] arr) {
+    public static int getArrSum(int[] arr) {
         int sum = 0;
         for (int j : arr) {
             sum += j;
@@ -43,7 +40,7 @@ public class 评委打分需求 {
     }
 
     //数组获取最小值
-    public static int getArrMin(@NotNull int[] arr) {
+    public static int getArrMin(int[] arr) {
         int min = arr[0];
         for (int j : arr) {
             if (j < min) {
@@ -54,7 +51,7 @@ public class 评委打分需求 {
     }
 
     //数组获取最大值
-    public static int getArrMax(@NotNull int[] arr) {
+    public static int getArrMax(int[] arr) {
         int max = arr[0];
         for (int j : arr) {
             if (j > max) {
