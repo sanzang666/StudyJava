@@ -1,7 +1,6 @@
 package 跟着老杨学java.方法;
 
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class 评委打分需求 {
@@ -29,7 +28,6 @@ public class 评委打分需求 {
         //5.获取去除最大最小后的平均分
         int result = (sum - max - min) / (arr.length - 2);
         System.out.println(result);
-
     }
 
     //数组求和
