@@ -1,26 +1,26 @@
 package 跟着老杨学java.类;
 
 public class Student {
-    private String _name;
-    private int _age;
+    private String name;
+    private int age;
 
     public void setName(String name) {
-        _name = name;
+        this.name = name;
     }
 
     public String getName() {
-        return _name;
+        return name;
     }
 
     public void setAge(int age) {
-        _age = age;
+        this.age = age;
     }
 
     public int getAge() {
-        return _age;
+        return age;
     }
 
     public void show() {
-        System.out.println(_name + "," + _age);
+        System.out.println(this.name + "," + age);
     }
 }

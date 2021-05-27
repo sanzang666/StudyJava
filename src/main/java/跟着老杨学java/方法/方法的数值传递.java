@@ -1,6 +1,5 @@
 package 跟着老杨学java.方法;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 
@@ -28,7 +27,7 @@ public class 方法的数值传递 {
         num = 200;
     }
 
-    public static void chang(@NotNull int[] num) {
+    public static void chang(int[] num) {
         num[1] = 100;
     }
 }
