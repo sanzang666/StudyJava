@@ -7,11 +7,11 @@ public class ArrayListDome {
         // ArrayList 是一个可变的集合容器
 
         // 创建一个ArrayList 对象  ArrayList<类型>
-        ArrayList<String> strArray = new ArrayList<>();
+        ArrayList<String> strArray = new ArrayList<String>();
         // 集合末尾新增值
         strArray.add("hello");
         strArray.add("hello");
-        strArray.add("word");
+        strArray.add("world");
 
         //指定索引位置添加值
         strArray.add(2, "!");

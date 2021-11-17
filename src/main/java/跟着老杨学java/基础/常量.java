@@ -9,7 +9,7 @@ public class 常量 {
     public static void main(String[] args) {
         //常量要使用final修饰
         //定义一个字符串类型的常量
-        final String STR = "hello word";
+        final String STR = "hello world";
         //定义一个整数常量
         final int NUM = 21;
         //常量只能初始化一次

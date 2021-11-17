@@ -2,7 +2,6 @@ package 跟着老杨学java.日期;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 
 public class Dome {

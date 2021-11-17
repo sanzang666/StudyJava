@@ -8,7 +8,7 @@ public class 变量 {
      */
     public static void main(String[] args) {
         //定义一个字符串
-        String str = "hello word";
+        String str = "hello world";
         //定义一个整数
         int num = 21;
         long num2 = 987654321;
